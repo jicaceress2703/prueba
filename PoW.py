@@ -3,7 +3,7 @@ import random
 
 comparador=False
 n=0
-cadena=": ¡Hola_mundo!"
+cadena=": ¡Hello World!"
 while(comparador==False):
     for i in range(33,127):
         cadena_aux=chr(i)+cadena
@@ -11,6 +11,7 @@ while(comparador==False):
         if(hash_actual.find("b00da")!=-1):
             print(cadena)
             print(hash_actual)
+            print(len(cadena))
             n=1
         break
     if(n==1):
